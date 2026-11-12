@@ -1,0 +1,501 @@
+id_x,policy_id,product_line_id,region_id,date_id,claim_amount,status,claim_date,resolution_time_days,id_policy,coverage_type,valid_dates,id_region,region_name,id_y,product_line,id,date
+1,76,2,4,327,188.94,closed,2021-10-09,16,76,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,327,2021-11-04
+2,8,1,2,219,570.28,closed,2023-02-19,17,8,premium,False,2,South North,1,Business,219,2022-11-11
+3,1,1,2,157,34266.73,closed,2022-05-17,15,1,standard,False,2,South North,1,Business,157,2021-03-18
+4,197,3,1,115,100.13,closed,2023-01-31,17,197,premium,False,1,Appalachian,3,Health,115,2022-10-23
+5,114,3,9,165,40242.27,pending,2022-04-14,17,114,standard,True,9,Desert GreatLakes,3,Health,165,2023-12-26
+6,81,3,5,136,11065.86,open,2021-02-16,18,81,standard,True,5,Appalachian,3,Health,136,2020-12-22
+7,148,1,6,198,13610.82,open,2020-12-08,17,148,basic,False,6,Suburban Urban,1,Business,198,2022-12-14
+8,162,3,9,195,49666.32,closed,2023-12-09,18,162,basic,True,9,Desert GreatLakes,3,Health,195,2022-12-09
+9,198,2,5,12,34860.3,pending,2020-11-15,10,198,standard,True,5,Appalachian,2,Long-term-care Title Workers-compensation,12,2023-03-31
+10,162,2,10,234,9538.31,closed,2022-01-11,12,162,basic,True,10,Northwest Rural,2,Long-term-care Title Workers-compensation,234,2020-08-13
+11,70,1,5,54,37872.51,open,2021-02-15,19,70,standard,True,5,Appalachian,1,Business,54,2020-01-12
+12,76,1,10,150,45624.68,closed,2023-06-11,8,76,basic,True,10,Northwest Rural,1,Business,150,2023-07-02
+13,151,1,1,61,44113.09,pending,2020-06-01,9,151,basic,True,1,Appalachian,1,Business,61,2022-05-09
+14,55,3,3,240,2420.97,closed,2020-02-13,15,55,standard,True,3,Atlantic,3,Health,240,2020-01-30
+15,134,1,9,33,1135.78,open,2022-02-18,18,134,standard,True,9,Desert GreatLakes,1,Business,33,2022-02-19
+16,162,2,2,86,25910.75,open,2022-11-24,25,162,basic,True,2,South North,2,Long-term-care Title Workers-compensation,86,2020-11-10
+17,30,3,1,326,9164.2,closed,2022-09-08,16,30,premium,True,1,Appalachian,3,Health,326,2021-11-30
+18,66,1,3,24,278.15,closed,2023-10-07,2,66,standard,True,3,Atlantic,1,Business,24,2020-10-21
+19,183,3,8,339,163.51,open,2021-01-13,11,183,basic,False,8,East Southeast,3,Health,339,2023-11-07
+20,99,2,5,264,7552.34,closed,2020-08-28,9,99,basic,True,5,Appalachian,2,Long-term-care Title Workers-compensation,264,2022-09-15
+21,191,3,8,76,48620.7,closed,2021-08-31,15,191,basic,False,8,East Southeast,3,Health,76,2022-08-16
+22,46,3,2,187,20406.46,pending,2023-05-19,12,46,basic,True,2,South North,3,Health,187,2020-10-04
+23,152,1,5,183,3590.14,closed,2023-08-24,9,152,standard,True,5,Appalachian,1,Business,183,2022-01-09
+24,134,3,3,28,11048.12,closed,2020-01-12,15,134,standard,True,3,Atlantic,3,Health,28,2022-03-03
+25,28,2,7,362,22853.89,closed,2020-02-10,16,28,basic,False,7,South,2,Long-term-care Title Workers-compensation,362,2022-03-15
+26,145,3,9,147,10478.85,open,2021-09-27,21,145,basic,False,9,Desert GreatLakes,3,Health,147,2021-08-25
+27,17,2,6,33,5244.5,closed,2023-02-16,20,17,standard,True,6,Suburban Urban,2,Long-term-care Title Workers-compensation,33,2022-02-19
+28,109,1,9,296,42555.17,open,2021-07-14,22,109,basic,False,9,Desert GreatLakes,1,Business,296,2022-11-17
+29,122,1,5,325,45048.84,closed,2020-11-19,16,122,basic,True,5,Appalachian,1,Business,325,2020-05-23
+30,122,3,2,272,4418.28,closed,2020-12-02,15,122,basic,True,2,South North,3,Health,272,2022-02-04
+31,31,3,5,246,173.16,closed,2023-01-13,18,31,standard,True,5,Appalachian,3,Health,246,2020-05-05
+32,113,3,10,204,30274.17,pending,2021-06-01,17,113,standard,False,10,Northwest Rural,3,Health,204,2020-06-16
+33,6,1,9,209,16045.94,open,2023-02-19,8,6,premium,False,9,Desert GreatLakes,1,Business,209,2023-09-16
+34,192,1,8,249,9328.0,closed,2022-11-22,15,192,basic,False,8,East Southeast,1,Business,249,2023-11-12
+35,5,1,1,233,23296.88,closed,2023-08-17,16,5,basic,True,1,Appalachian,1,Business,233,2020-01-20
+36,154,3,2,357,15516.11,pending,2023-10-04,16,154,standard,True,2,South North,3,Health,357,2023-08-19
+37,2,1,6,300,9690.08,closed,2020-11-26,22,2,standard,False,6,Suburban Urban,1,Business,300,2021-06-18
+38,157,2,2,254,35822.26,closed,2020-08-21,13,157,standard,True,2,South North,2,Long-term-care Title Workers-compensation,254,2022-10-20
+39,93,3,8,63,12537.03,pending,2020-06-02,8,93,standard,False,8,East Southeast,3,Health,63,2022-09-19
+40,119,1,9,281,169.99,closed,2021-08-12,19,119,premium,True,9,Desert GreatLakes,1,Business,281,2020-11-06
+41,168,1,7,280,29144.99,closed,2022-01-15,13,168,basic,False,7,South,1,Business,280,2022-09-22
+42,164,3,8,51,42381.16,closed,2023-10-21,15,164,premium,False,8,East Southeast,3,Health,51,2020-02-19
+43,191,1,7,238,29370.55,open,2022-08-04,12,191,basic,False,7,South,1,Business,238,2020-01-07
+44,36,3,2,313,2191.39,pending,2021-11-11,15,36,basic,True,2,South North,3,Health,313,2020-03-16
+45,113,1,3,22,23050.92,pending,2023-04-23,15,113,standard,False,3,Atlantic,1,Business,22,2021-05-29
+46,162,1,3,114,24876.63,pending,2023-07-15,11,162,basic,True,3,Atlantic,1,Business,114,2021-11-23
+47,157,1,2,288,7429.65,open,2022-08-09,19,157,standard,True,2,South North,1,Business,288,2022-07-21
+48,153,1,10,172,29890.31,closed,2021-09-20,12,153,basic,True,10,Northwest Rural,1,Business,172,2023-05-31
+49,100,1,3,332,36002.26,pending,2020-11-26,15,100,premium,True,3,Atlantic,1,Business,332,2023-09-08
+50,24,3,8,346,6121.07,pending,2023-12-09,19,24,premium,True,8,East Southeast,3,Health,346,2023-05-19
+51,48,3,6,338,2027.54,pending,2020-02-29,13,48,basic,False,6,Suburban Urban,3,Health,338,2023-08-17
+52,93,3,6,118,26661.54,closed,2023-08-17,17,93,standard,False,6,Suburban Urban,3,Health,118,2020-11-19
+53,101,1,1,335,14833.94,open,2023-07-28,16,101,standard,False,1,Appalachian,1,Business,335,2020-07-02
+54,121,2,1,175,6074.32,closed,2023-01-17,18,121,basic,False,1,Appalachian,2,Long-term-care Title Workers-compensation,175,2023-09-22
+55,32,3,3,258,20449.07,open,2020-09-03,14,32,standard,False,3,Atlantic,3,Health,258,2021-02-06
+56,94,3,2,174,38278.52,closed,2023-06-07,15,94,basic,False,2,South North,3,Health,174,2021-12-14
+57,137,2,3,255,100.03,pending,2023-10-03,16,137,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,255,2022-11-19
+58,150,2,3,322,7522.79,closed,2021-01-29,17,150,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,322,2022-09-24
+59,199,1,10,46,39728.99,closed,2021-07-10,24,199,standard,True,10,Northwest Rural,1,Business,46,2021-11-03
+60,132,3,10,65,14302.62,closed,2021-03-12,17,132,basic,False,10,Northwest Rural,3,Health,65,2023-01-22
+61,173,2,1,315,24235.87,closed,2020-03-31,17,173,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,315,2023-10-07
+62,142,3,5,166,29142.74,pending,2023-05-15,14,142,premium,False,5,Appalachian,3,Health,166,2023-08-22
+63,137,1,2,100,41187.15,open,2022-08-14,19,137,standard,False,2,South North,1,Business,100,2023-08-12
+64,128,3,8,284,1907.16,closed,2021-12-24,15,128,standard,False,8,East Southeast,3,Health,284,2021-10-01
+65,176,1,3,137,389.2,closed,2021-02-23,16,176,basic,True,3,Atlantic,1,Business,137,2020-04-06
+66,133,3,7,191,22565.58,closed,2023-04-09,13,133,basic,True,7,South,3,Health,191,2021-10-10
+67,35,1,2,328,23395.02,closed,2020-03-11,16,35,standard,False,2,South North,1,Business,328,2022-07-08
+68,185,2,9,17,5406.49,closed,2023-07-26,15,185,basic,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,17,2020-03-04
+69,72,1,2,136,34283.29,open,2022-12-27,12,72,standard,False,2,South North,1,Business,136,2020-12-22
+70,58,3,1,345,49809.9,closed,2022-01-31,19,58,standard,False,1,Appalachian,3,Health,345,2021-10-30
+71,139,2,2,60,14060.88,closed,2021-12-24,11,139,premium,True,2,South North,2,Long-term-care Title Workers-compensation,60,2021-08-13
+72,185,3,5,266,33263.55,closed,2020-04-18,14,185,basic,True,5,Appalachian,3,Health,266,2022-11-24
+73,179,1,3,20,12207.98,pending,2020-05-19,22,179,standard,False,3,Atlantic,1,Business,20,2022-08-05
+74,134,3,6,165,405.89,pending,2022-05-16,13,134,standard,True,6,Suburban Urban,3,Health,165,2023-12-26
+75,58,1,4,252,2399.35,pending,2021-01-16,22,58,standard,False,4,Northeast West,1,Business,252,2022-10-23
+76,52,1,8,351,34390.4,open,2023-12-27,17,52,standard,False,8,East Southeast,1,Business,351,2023-12-09
+77,186,1,8,156,47170.83,open,2022-04-05,9,186,standard,False,8,East Southeast,1,Business,156,2022-12-10
+78,109,2,9,362,3857.87,pending,2022-02-06,6,109,basic,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,362,2022-03-15
+79,112,1,1,75,45277.86,closed,2022-02-16,20,112,basic,False,1,Appalachian,1,Business,75,2020-08-19
+80,67,3,10,300,9789.36,open,2023-08-14,18,67,standard,True,10,Northwest Rural,3,Health,300,2021-06-18
+81,98,3,1,6,111.42,open,2020-02-10,13,98,standard,True,1,Appalachian,3,Health,6,2022-02-17
+82,19,3,4,258,29032.21,open,2023-01-20,16,19,basic,False,4,Northeast West,3,Health,258,2021-02-06
+83,7,1,1,6,2135.02,pending,2021-01-26,13,7,basic,False,1,Appalachian,1,Business,6,2022-02-17
+84,11,2,3,184,30893.27,closed,2021-03-04,14,11,basic,False,3,Atlantic,2,Long-term-care Title Workers-compensation,184,2022-03-03
+85,101,1,1,221,5378.23,pending,2020-07-18,15,101,standard,False,1,Appalachian,1,Business,221,2023-07-23
+86,146,2,1,84,43413.76,closed,2022-07-18,21,146,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,84,2021-10-01
+87,193,2,9,156,14102.55,closed,2021-11-07,14,193,standard,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,156,2022-12-10
+88,87,2,1,46,6038.64,closed,2023-02-06,13,87,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,46,2021-11-03
+89,39,1,8,361,179.44,closed,2021-06-16,14,39,premium,False,8,East Southeast,1,Business,361,2020-12-14
+90,54,3,10,11,3599.92,open,2021-05-21,20,54,premium,True,10,Northwest Rural,3,Health,11,2023-11-30
+91,96,2,3,101,8989.15,open,2022-07-31,25,96,premium,True,3,Atlantic,2,Long-term-care Title Workers-compensation,101,2020-10-29
+92,103,2,6,330,3868.28,closed,2022-05-12,24,103,standard,False,6,Suburban Urban,2,Long-term-care Title Workers-compensation,330,2020-11-20
+93,29,3,9,316,14690.52,closed,2021-12-17,11,29,standard,True,9,Desert GreatLakes,3,Health,316,2021-02-28
+94,67,1,10,206,647.97,closed,2023-03-03,15,67,standard,True,10,Northwest Rural,1,Business,206,2023-09-04
+95,93,1,1,135,20944.24,open,2021-12-31,21,93,standard,False,1,Appalachian,1,Business,135,2022-12-08
+96,13,2,9,180,41860.39,closed,2022-05-10,19,13,standard,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,180,2022-03-29
+97,121,1,5,46,7898.26,closed,2020-02-03,14,121,basic,False,5,Appalachian,1,Business,46,2021-11-03
+98,70,1,4,168,442.45,closed,2020-06-23,11,70,standard,True,4,Northeast West,1,Business,168,2022-10-11
+99,45,3,5,237,7049.54,open,2020-01-17,6,45,standard,True,5,Appalachian,3,Health,237,2022-10-12
+100,198,1,10,252,26930.56,open,2023-06-04,8,198,standard,True,10,Northwest Rural,1,Business,252,2022-10-23
+101,180,1,10,157,733.29,open,2020-06-01,22,180,premium,False,10,Northwest Rural,1,Business,157,2021-03-18
+102,64,3,2,193,16050.88,closed,2020-08-14,21,64,premium,False,2,South North,3,Health,193,2021-12-09
+103,191,2,3,200,34730.54,closed,2021-03-05,17,191,basic,False,3,Atlantic,2,Long-term-care Title Workers-compensation,200,2021-04-16
+104,68,3,3,222,17335.87,closed,2023-01-25,12,68,standard,True,3,Atlantic,3,Health,222,2022-11-19
+105,123,3,3,42,1006.45,closed,2023-04-03,15,123,premium,False,3,Atlantic,3,Health,42,2023-12-25
+106,46,1,4,263,156.69,closed,2020-01-04,10,46,basic,True,4,Northeast West,1,Business,263,2021-01-21
+107,93,1,1,311,32221.31,pending,2021-09-06,14,93,standard,False,1,Appalachian,1,Business,311,2023-05-16
+108,103,1,10,140,15747.78,pending,2022-12-22,25,103,standard,False,10,Northwest Rural,1,Business,140,2022-11-03
+109,139,3,10,179,33549.88,closed,2021-07-17,8,139,premium,True,10,Northwest Rural,3,Health,179,2023-07-07
+110,36,3,7,326,16805.22,closed,2023-11-24,22,36,basic,True,7,South,3,Health,326,2021-11-30
+111,153,2,6,317,2698.46,open,2020-03-31,15,153,basic,True,6,Suburban Urban,2,Long-term-care Title Workers-compensation,317,2022-12-08
+112,85,1,10,350,12711.92,closed,2020-11-27,6,85,premium,True,10,Northwest Rural,1,Business,350,2023-02-19
+113,40,2,8,31,31198.28,closed,2022-05-03,13,40,standard,True,8,East Southeast,2,Long-term-care Title Workers-compensation,31,2023-08-25
+114,124,3,5,355,42466.1,open,2020-04-10,22,124,basic,False,5,Appalachian,3,Health,355,2022-03-14
+115,93,3,3,297,25566.03,closed,2020-06-22,18,93,standard,False,3,Atlantic,3,Health,297,2023-11-29
+116,169,2,5,347,19960.31,closed,2022-03-21,15,169,basic,True,5,Appalachian,2,Long-term-care Title Workers-compensation,347,2023-11-08
+117,103,1,1,340,5186.38,closed,2020-06-23,14,103,standard,False,1,Appalachian,1,Business,340,2022-01-14
+118,162,2,8,167,17017.73,pending,2023-11-07,16,162,basic,True,8,East Southeast,2,Long-term-care Title Workers-compensation,167,2020-01-17
+119,173,3,4,158,1608.88,open,2022-03-29,14,173,standard,False,4,Northeast West,3,Health,158,2021-10-06
+120,159,1,7,142,5586.4,closed,2021-11-01,20,159,basic,True,7,South,1,Business,142,2020-10-09
+121,87,1,7,61,696.5,closed,2023-05-19,24,87,standard,False,7,South,1,Business,61,2022-05-09
+122,153,1,1,19,45377.19,open,2023-05-20,14,153,basic,True,1,Appalachian,1,Business,19,2021-08-11
+123,117,2,3,289,37891.71,closed,2020-04-28,17,117,basic,False,3,Atlantic,2,Long-term-care Title Workers-compensation,289,2023-02-06
+124,16,3,4,200,34550.73,open,2022-03-31,16,16,basic,True,4,Northeast West,3,Health,200,2021-04-16
+125,52,1,9,87,3300.95,pending,2022-05-24,22,52,standard,False,9,Desert GreatLakes,1,Business,87,2022-08-25
+126,43,2,1,157,38256.43,closed,2021-08-05,20,43,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,157,2021-03-18
+127,53,2,2,99,40492.8,open,2023-10-01,21,53,basic,True,2,South North,2,Long-term-care Title Workers-compensation,99,2021-01-31
+128,16,2,5,318,36108.23,closed,2020-10-19,11,16,basic,True,5,Appalachian,2,Long-term-care Title Workers-compensation,318,2022-07-07
+129,7,1,7,61,28780.45,open,2023-11-29,15,7,basic,False,7,South,1,Business,61,2022-05-09
+130,113,3,2,265,36411.42,closed,2023-05-25,13,113,standard,False,2,South North,3,Health,265,2021-02-17
+131,162,3,8,68,1694.58,pending,2020-04-01,10,162,basic,True,8,East Southeast,3,Health,68,2021-11-03
+132,149,2,9,283,9553.65,closed,2021-02-18,16,149,basic,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,283,2022-11-28
+133,39,1,2,86,18794.03,pending,2022-08-31,17,39,premium,False,2,South North,1,Business,86,2020-11-10
+134,54,2,9,60,27982.38,closed,2022-06-06,11,54,premium,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,60,2021-08-13
+135,137,2,6,35,41435.47,closed,2023-09-02,17,137,standard,False,6,Suburban Urban,2,Long-term-care Title Workers-compensation,35,2021-10-19
+136,64,2,3,315,14762.35,closed,2023-04-02,11,64,premium,False,3,Atlantic,2,Long-term-care Title Workers-compensation,315,2023-10-07
+137,197,2,4,258,8329.34,closed,2022-05-08,16,197,premium,False,4,Northeast West,2,Long-term-care Title Workers-compensation,258,2021-02-06
+138,42,2,6,337,10035.72,pending,2022-07-17,17,42,standard,True,6,Suburban Urban,2,Long-term-care Title Workers-compensation,337,2020-05-04
+139,65,2,1,315,2594.81,closed,2022-11-07,9,65,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,315,2023-10-07
+140,127,3,9,49,708.63,open,2022-11-08,17,127,basic,True,9,Desert GreatLakes,3,Health,49,2022-07-18
+141,21,1,3,131,105.34,closed,2020-06-18,13,21,basic,False,3,Atlantic,1,Business,131,2023-08-09
+142,136,2,3,79,6196.58,closed,2021-02-04,10,136,standard,True,3,Atlantic,2,Long-term-care Title Workers-compensation,79,2021-06-08
+143,175,3,2,71,36306.1,open,2021-09-10,12,175,basic,True,2,South North,3,Health,71,2023-08-26
+144,166,2,8,336,8358.45,pending,2023-07-18,21,166,basic,False,8,East Southeast,2,Long-term-care Title Workers-compensation,336,2021-08-24
+145,23,1,3,231,21458.75,closed,2023-07-27,10,23,standard,False,3,Atlantic,1,Business,231,2020-03-19
+146,41,3,3,316,8022.87,closed,2021-11-18,3,41,basic,True,3,Atlantic,3,Health,316,2021-02-28
+147,137,1,3,252,8685.59,open,2022-08-07,14,137,standard,False,3,Atlantic,1,Business,252,2022-10-23
+148,13,2,3,99,10085.71,closed,2020-06-25,12,13,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,99,2021-01-31
+149,120,1,10,105,23663.02,closed,2021-02-05,10,120,basic,False,10,Northwest Rural,1,Business,105,2023-01-31
+150,128,1,3,110,14913.68,closed,2022-07-09,15,128,standard,False,3,Atlantic,1,Business,110,2023-01-16
+151,166,3,10,245,31655.75,closed,2020-09-13,11,166,basic,False,10,Northwest Rural,3,Health,245,2020-03-18
+152,68,1,10,105,545.94,open,2023-06-19,20,68,standard,True,10,Northwest Rural,1,Business,105,2023-01-31
+153,146,1,6,231,7431.47,open,2022-01-02,22,146,standard,False,6,Suburban Urban,1,Business,231,2020-03-19
+154,97,3,4,142,26938.65,open,2022-05-08,13,97,standard,True,4,Northeast West,3,Health,142,2020-10-09
+155,164,2,9,189,41514.59,closed,2020-01-09,10,164,premium,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,189,2023-09-02
+156,52,3,4,158,39133.78,closed,2020-03-27,16,52,standard,False,4,Northeast West,3,Health,158,2021-10-06
+157,12,1,1,309,3427.16,closed,2022-04-05,22,12,premium,False,1,Appalachian,1,Business,309,2023-01-13
+158,16,1,8,290,34688.3,open,2023-04-02,17,16,basic,True,8,East Southeast,1,Business,290,2020-11-16
+159,78,3,5,262,31372.19,closed,2021-10-28,21,78,premium,True,5,Appalachian,3,Health,262,2022-08-28
+160,51,3,9,205,15519.64,closed,2020-07-02,22,51,premium,True,9,Desert GreatLakes,3,Health,205,2020-12-26
+161,114,2,5,165,11486.67,open,2020-07-19,15,114,standard,True,5,Appalachian,2,Long-term-care Title Workers-compensation,165,2023-12-26
+162,44,2,4,216,12461.4,closed,2022-05-02,13,44,standard,True,4,Northeast West,2,Long-term-care Title Workers-compensation,216,2021-10-07
+163,46,1,2,331,15000.19,pending,2020-09-01,16,46,basic,True,2,South North,1,Business,331,2020-10-24
+164,185,2,10,152,13423.0,pending,2023-12-14,19,185,basic,True,10,Northwest Rural,2,Long-term-care Title Workers-compensation,152,2023-12-10
+165,105,2,1,259,9798.08,pending,2022-04-19,12,105,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,259,2021-01-12
+166,71,1,4,357,1753.65,open,2020-11-14,17,71,premium,True,4,Northeast West,1,Business,357,2023-08-19
+167,37,2,9,352,3461.28,closed,2022-07-22,12,37,basic,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,352,2023-07-07
+168,122,3,1,15,3959.91,closed,2023-08-15,15,122,basic,True,1,Appalachian,3,Health,15,2020-10-16
+169,119,2,8,214,3460.72,closed,2021-09-27,14,119,premium,True,8,East Southeast,2,Long-term-care Title Workers-compensation,214,2022-10-10
+170,15,2,2,80,13090.16,pending,2023-05-05,21,15,premium,True,2,South North,2,Long-term-care Title Workers-compensation,80,2023-09-01
+171,11,1,9,219,5433.44,closed,2021-02-08,23,11,basic,False,9,Desert GreatLakes,1,Business,219,2022-11-11
+172,48,3,5,222,24772.37,open,2021-08-14,16,48,basic,False,5,Appalachian,3,Health,222,2022-11-19
+173,151,2,1,83,31322.91,open,2023-04-13,13,151,basic,True,1,Appalachian,2,Long-term-care Title Workers-compensation,83,2023-12-11
+174,188,1,9,10,1063.45,closed,2023-10-06,17,188,basic,False,9,Desert GreatLakes,1,Business,10,2022-10-02
+175,200,3,3,72,36401.8,open,2022-06-28,17,200,basic,False,3,Atlantic,3,Health,72,2020-02-11
+176,82,2,2,177,29674.88,pending,2020-12-20,20,82,standard,True,2,South North,2,Long-term-care Title Workers-compensation,177,2020-01-10
+177,173,1,9,172,4265.68,open,2022-08-03,13,173,standard,False,9,Desert GreatLakes,1,Business,172,2023-05-31
+178,150,1,6,289,21610.74,open,2022-01-13,12,150,standard,False,6,Suburban Urban,1,Business,289,2023-02-06
+179,158,2,1,335,1082.14,closed,2021-10-14,15,158,standard,True,1,Appalachian,2,Long-term-care Title Workers-compensation,335,2020-07-02
+180,178,2,2,152,391.13,closed,2020-05-30,20,178,basic,False,2,South North,2,Long-term-care Title Workers-compensation,152,2023-12-10
+181,37,2,1,168,277.07,closed,2023-10-13,16,37,basic,False,1,Appalachian,2,Long-term-care Title Workers-compensation,168,2022-10-11
+182,26,1,10,119,1357.64,open,2023-03-04,17,26,basic,False,10,Northwest Rural,1,Business,119,2021-12-01
+183,64,2,4,60,35855.65,open,2021-08-20,21,64,premium,False,4,Northeast West,2,Long-term-care Title Workers-compensation,60,2021-08-13
+184,146,3,10,116,48006.68,closed,2023-01-24,16,146,standard,False,10,Northwest Rural,3,Health,116,2022-11-21
+185,47,1,8,364,10573.31,pending,2020-07-13,22,47,basic,False,8,East Southeast,1,Business,364,2022-11-28
+186,177,1,4,28,1044.63,open,2020-08-10,16,177,standard,False,4,Northeast West,1,Business,28,2022-03-03
+187,141,1,7,163,6552.64,closed,2021-07-04,20,141,standard,True,7,South,1,Business,163,2023-12-03
+188,136,3,10,50,3694.47,closed,2023-11-04,9,136,standard,True,10,Northwest Rural,3,Health,50,2021-10-21
+189,106,1,7,173,6108.91,closed,2022-05-05,13,106,premium,False,7,South,1,Business,173,2022-02-26
+190,32,2,5,134,3106.37,closed,2020-08-25,12,32,standard,False,5,Appalachian,2,Long-term-care Title Workers-compensation,134,2021-10-13
+191,75,2,1,340,15106.19,closed,2023-03-10,14,75,standard,True,1,Appalachian,2,Long-term-care Title Workers-compensation,340,2022-01-14
+192,133,2,4,167,48184.48,open,2021-11-29,13,133,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,167,2020-01-17
+193,98,3,1,37,25970.5,closed,2020-03-22,17,98,standard,True,1,Appalachian,3,Health,37,2020-06-30
+194,44,1,1,196,6110.53,open,2023-01-19,10,44,standard,True,1,Appalachian,1,Business,196,2022-11-12
+195,65,3,3,20,11189.09,pending,2021-10-20,11,65,standard,False,3,Atlantic,3,Health,20,2022-08-05
+196,77,2,1,102,29893.91,closed,2020-02-29,20,77,basic,True,1,Appalachian,2,Long-term-care Title Workers-compensation,102,2022-01-17
+197,120,3,4,157,16186.56,closed,2020-11-22,12,120,basic,False,4,Northeast West,3,Health,157,2021-03-18
+198,85,3,7,209,9363.76,open,2022-05-15,13,85,premium,True,7,South,3,Health,209,2023-09-16
+199,60,1,9,24,6341.35,closed,2022-01-10,19,60,basic,True,9,Desert GreatLakes,1,Business,24,2020-10-21
+200,26,3,9,321,41945.48,pending,2023-09-09,8,26,basic,False,9,Desert GreatLakes,3,Health,321,2021-12-27
+201,52,1,2,166,5633.14,pending,2022-08-31,13,52,standard,False,2,South North,1,Business,166,2023-08-22
+202,180,2,5,308,13704.63,closed,2021-06-20,15,180,premium,False,5,Appalachian,2,Long-term-care Title Workers-compensation,308,2021-01-28
+203,47,3,4,10,4633.12,closed,2020-03-10,12,47,basic,False,4,Northeast West,3,Health,10,2022-10-02
+204,185,2,1,109,44554.01,open,2020-07-25,20,185,basic,True,1,Appalachian,2,Long-term-care Title Workers-compensation,109,2022-07-16
+205,72,1,7,343,28469.5,open,2020-01-14,17,72,standard,False,7,South,1,Business,343,2022-08-25
+206,157,1,10,275,512.05,closed,2022-12-14,17,157,standard,True,10,Northwest Rural,1,Business,275,2022-12-14
+207,115,2,4,8,36311.8,closed,2023-09-15,9,115,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,8,2023-09-05
+208,52,1,9,342,3273.11,closed,2022-03-19,22,52,standard,False,9,Desert GreatLakes,1,Business,342,2022-12-04
+209,162,2,4,74,4702.71,closed,2022-10-29,22,162,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,74,2021-10-29
+210,93,1,9,112,19037.63,open,2020-05-02,18,93,standard,False,9,Desert GreatLakes,1,Business,112,2020-06-20
+211,97,1,10,156,458.02,open,2022-05-08,15,97,standard,True,10,Northwest Rural,1,Business,156,2022-12-10
+212,50,3,4,348,4265.75,closed,2022-12-22,18,50,basic,True,4,Northeast West,3,Health,348,2020-08-30
+213,138,3,5,4,6335.05,pending,2022-12-29,21,138,standard,False,5,Appalachian,3,Health,4,2021-05-16
+214,14,3,6,312,48488.23,closed,2021-11-08,9,14,standard,False,6,Suburban Urban,3,Health,312,2023-03-19
+215,97,1,10,179,26090.5,closed,2023-01-20,14,97,standard,True,10,Northwest Rural,1,Business,179,2023-07-07
+216,134,2,4,85,35788.63,closed,2020-12-09,18,134,standard,True,4,Northeast West,2,Long-term-care Title Workers-compensation,85,2021-11-25
+217,137,1,9,135,16698.83,closed,2021-05-10,11,137,standard,False,9,Desert GreatLakes,1,Business,135,2022-12-08
+218,119,1,2,13,33404.03,pending,2020-04-23,17,119,premium,True,2,South North,1,Business,13,2023-08-24
+219,191,1,9,102,4054.9,pending,2020-03-14,15,191,basic,False,9,Desert GreatLakes,1,Business,102,2022-01-17
+220,38,3,2,276,1330.69,closed,2023-04-21,17,38,standard,False,2,South North,3,Health,276,2023-12-12
+221,14,3,1,311,5272.93,open,2020-07-22,15,14,standard,False,1,Appalachian,3,Health,311,2023-05-16
+222,32,3,10,135,7138.29,open,2023-11-22,13,32,standard,False,10,Northwest Rural,3,Health,135,2022-12-08
+223,153,1,9,109,1678.4,open,2023-09-29,12,153,basic,True,9,Desert GreatLakes,1,Business,109,2022-07-16
+224,131,3,3,252,504.82,open,2021-12-05,15,131,standard,False,3,Atlantic,3,Health,252,2022-10-23
+225,165,2,7,17,23459.24,closed,2023-03-28,11,165,standard,False,7,South,2,Long-term-care Title Workers-compensation,17,2020-03-04
+226,167,2,3,272,44746.69,closed,2020-10-21,17,167,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,272,2022-02-04
+227,55,2,4,350,124.12,open,2023-05-12,12,55,standard,True,4,Northeast West,2,Long-term-care Title Workers-compensation,350,2023-02-19
+228,162,2,2,154,5482.01,closed,2022-11-07,16,162,basic,True,2,South North,2,Long-term-care Title Workers-compensation,154,2020-01-19
+229,74,3,5,257,30712.16,closed,2020-04-11,16,74,standard,True,5,Appalachian,3,Health,257,2022-02-20
+230,94,2,7,70,12514.34,closed,2021-08-09,16,94,basic,False,7,South,2,Long-term-care Title Workers-compensation,70,2023-01-27
+231,75,3,6,51,20261.84,open,2022-06-11,7,75,standard,True,6,Suburban Urban,3,Health,51,2020-02-19
+232,102,3,4,194,21565.55,closed,2020-12-09,9,102,standard,True,4,Northeast West,3,Health,194,2020-06-08
+233,157,2,9,18,8397.97,closed,2021-04-23,19,157,standard,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,18,2020-12-09
+234,96,1,9,142,29915.81,pending,2021-08-11,21,96,premium,True,9,Desert GreatLakes,1,Business,142,2020-10-09
+235,56,3,2,306,32361.17,closed,2023-11-08,17,56,premium,True,2,South North,3,Health,306,2020-09-12
+236,86,2,6,140,30893.99,pending,2022-09-05,24,86,basic,False,6,Suburban Urban,2,Long-term-care Title Workers-compensation,140,2022-11-03
+237,12,1,5,67,1511.67,open,2020-04-02,18,12,premium,False,5,Appalachian,1,Business,67,2022-10-04
+238,36,1,1,143,3266.36,open,2022-06-23,17,36,basic,True,1,Appalachian,1,Business,143,2021-09-08
+239,187,2,6,239,9393.67,closed,2023-09-03,17,187,basic,False,6,Suburban Urban,2,Long-term-care Title Workers-compensation,239,2023-12-26
+240,39,2,7,144,23288.06,closed,2020-10-10,21,39,premium,False,7,South,2,Long-term-care Title Workers-compensation,144,2023-09-05
+241,164,2,2,147,9363.46,open,2023-02-09,26,164,premium,False,2,South North,2,Long-term-care Title Workers-compensation,147,2021-08-25
+242,161,3,1,51,36038.06,pending,2023-12-30,16,161,standard,True,1,Appalachian,3,Health,51,2020-02-19
+243,4,1,9,104,1279.94,closed,2021-11-18,14,4,standard,False,9,Desert GreatLakes,1,Business,104,2020-08-27
+244,145,3,1,359,28153.04,pending,2021-10-06,23,145,basic,False,1,Appalachian,3,Health,359,2023-02-02
+245,33,1,4,291,29456.68,closed,2022-06-16,19,33,standard,True,4,Northeast West,1,Business,291,2021-01-09
+246,12,1,1,350,15002.55,closed,2022-08-31,7,12,premium,False,1,Appalachian,1,Business,350,2023-02-19
+247,53,1,9,340,2774.42,open,2020-05-10,14,53,basic,True,9,Desert GreatLakes,1,Business,340,2022-01-14
+248,11,2,1,151,612.41,open,2021-09-12,20,11,basic,False,1,Appalachian,2,Long-term-care Title Workers-compensation,151,2020-07-30
+249,12,2,1,127,8784.9,closed,2020-03-25,5,12,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,127,2021-01-05
+250,33,2,9,308,49744.2,open,2023-07-31,11,33,standard,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,308,2021-01-28
+251,197,1,9,158,364.46,open,2021-01-09,16,197,premium,False,9,Desert GreatLakes,1,Business,158,2021-10-06
+252,161,1,4,350,6701.25,open,2021-11-13,8,161,standard,True,4,Northeast West,1,Business,350,2023-02-19
+253,35,2,10,348,2220.95,closed,2022-08-30,14,35,standard,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,348,2020-08-30
+254,57,3,7,96,22860.46,open,2021-11-03,18,57,basic,False,7,South,3,Health,96,2022-10-18
+255,191,3,8,119,5286.15,open,2021-06-30,17,191,basic,False,8,East Southeast,3,Health,119,2021-12-01
+256,24,1,4,292,731.82,open,2022-06-30,10,24,premium,True,4,Northeast West,1,Business,292,2023-09-19
+257,147,2,6,170,11719.57,closed,2020-10-21,18,147,basic,False,6,Suburban Urban,2,Long-term-care Title Workers-compensation,170,2022-09-01
+258,147,2,7,311,43938.12,open,2022-08-17,10,147,basic,False,7,South,2,Long-term-care Title Workers-compensation,311,2023-05-16
+259,131,1,3,340,12034.6,closed,2020-12-06,19,131,standard,False,3,Atlantic,1,Business,340,2022-01-14
+260,198,3,3,303,2801.99,open,2022-08-10,18,198,standard,True,3,Atlantic,3,Health,303,2021-12-03
+261,163,1,4,107,937.99,closed,2023-12-04,20,163,premium,False,4,Northeast West,1,Business,107,2020-11-24
+262,154,1,3,20,2020.59,open,2020-01-21,12,154,standard,True,3,Atlantic,1,Business,20,2022-08-05
+263,6,3,7,330,29022.91,closed,2022-04-23,18,6,premium,False,7,South,3,Health,330,2020-11-20
+264,57,1,2,49,115.85,closed,2021-10-17,15,57,basic,False,2,South North,1,Business,49,2022-07-18
+265,12,2,3,68,5038.8,open,2021-11-12,15,12,premium,False,3,Atlantic,2,Long-term-care Title Workers-compensation,68,2021-11-03
+266,18,2,1,62,18109.68,closed,2023-02-24,10,18,standard,True,1,Appalachian,2,Long-term-care Title Workers-compensation,62,2023-11-02
+267,143,2,4,185,34581.98,closed,2020-12-06,10,143,basic,False,4,Northeast West,2,Long-term-care Title Workers-compensation,185,2021-09-12
+268,52,2,10,245,3728.91,open,2020-07-18,10,52,standard,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,245,2020-03-18
+269,110,1,8,196,4238.21,closed,2020-08-17,18,110,premium,False,8,East Southeast,1,Business,196,2022-11-12
+270,142,1,4,143,37162.63,open,2020-05-09,17,142,premium,False,4,Northeast West,1,Business,143,2021-09-08
+271,172,1,6,64,11854.61,closed,2022-07-04,13,172,standard,False,6,Suburban Urban,1,Business,64,2021-11-02
+272,110,1,4,64,3426.31,open,2023-06-02,17,110,premium,False,4,Northeast West,1,Business,64,2021-11-02
+273,195,1,4,173,10598.74,open,2020-12-12,17,195,standard,False,4,Northeast West,1,Business,173,2022-02-26
+274,30,3,9,229,42235.7,pending,2021-04-12,13,30,premium,True,9,Desert GreatLakes,3,Health,229,2023-11-23
+275,93,2,10,77,4329.02,closed,2023-10-07,11,93,standard,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,77,2021-08-24
+276,88,3,6,38,4145.34,closed,2023-03-06,5,88,standard,True,6,Suburban Urban,3,Health,38,2022-09-15
+277,74,3,6,169,45777.4,closed,2021-06-28,16,74,standard,True,6,Suburban Urban,3,Health,169,2022-05-18
+278,117,3,6,120,24355.47,open,2020-05-12,8,117,basic,False,6,Suburban Urban,3,Health,120,2022-11-09
+279,70,2,1,228,14225.9,closed,2020-09-04,18,70,standard,True,1,Appalachian,2,Long-term-care Title Workers-compensation,228,2022-02-23
+280,11,3,2,210,14499.82,closed,2020-11-16,14,11,basic,False,2,South North,3,Health,210,2021-11-11
+281,71,3,4,165,1680.02,open,2020-06-06,19,71,premium,True,4,Northeast West,3,Health,165,2023-12-26
+282,168,3,3,204,11974.73,open,2020-09-20,13,168,basic,False,3,Atlantic,3,Health,204,2020-06-16
+283,11,3,4,228,818.94,closed,2022-10-29,8,11,basic,False,4,Northeast West,3,Health,228,2022-02-23
+284,120,1,6,55,28064.75,open,2023-06-22,14,120,basic,False,6,Suburban Urban,1,Business,55,2021-01-04
+285,50,1,10,170,13605.39,pending,2020-11-26,13,50,basic,True,10,Northwest Rural,1,Business,170,2022-09-01
+286,188,1,7,142,1155.45,pending,2020-01-18,16,188,basic,False,7,South,1,Business,142,2020-10-09
+287,94,3,1,258,5499.0,pending,2021-08-15,15,94,basic,False,1,Appalachian,3,Health,258,2021-02-06
+288,129,1,6,275,1520.23,closed,2023-09-20,14,129,standard,True,6,Suburban Urban,1,Business,275,2022-12-14
+289,88,2,2,8,34743.07,closed,2023-02-14,16,88,standard,True,2,South North,2,Long-term-care Title Workers-compensation,8,2023-09-05
+290,58,2,2,351,785.58,closed,2021-05-12,14,58,standard,False,2,South North,2,Long-term-care Title Workers-compensation,351,2023-12-09
+291,13,1,3,131,8406.01,closed,2020-08-27,15,13,standard,False,3,Atlantic,1,Business,131,2023-08-09
+292,31,1,5,344,3227.48,open,2020-04-04,21,31,standard,True,5,Appalachian,1,Business,344,2023-07-09
+293,172,1,7,151,17902.29,pending,2022-04-08,18,172,standard,False,7,South,1,Business,151,2020-07-30
+294,29,3,9,46,2670.66,closed,2020-01-23,24,29,standard,True,9,Desert GreatLakes,3,Health,46,2021-11-03
+295,145,3,9,211,125.63,closed,2023-09-28,22,145,basic,False,9,Desert GreatLakes,3,Health,211,2020-12-17
+296,36,3,8,250,15320.99,closed,2023-10-25,19,36,basic,True,8,East Southeast,3,Health,250,2021-07-18
+297,15,2,4,196,10760.57,closed,2021-02-19,12,15,premium,True,4,Northeast West,2,Long-term-care Title Workers-compensation,196,2022-11-12
+298,119,2,7,170,3014.72,closed,2022-08-15,15,119,premium,True,7,South,2,Long-term-care Title Workers-compensation,170,2022-09-01
+299,156,1,3,320,18885.54,open,2020-05-16,18,156,basic,False,3,Atlantic,1,Business,320,2021-11-25
+300,138,2,1,320,5011.16,closed,2022-11-28,22,138,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,320,2021-11-25
+301,96,1,2,157,3037.9,closed,2022-01-13,21,96,premium,True,2,South North,1,Business,157,2021-03-18
+302,26,3,7,246,39512.09,pending,2021-01-12,14,26,basic,False,7,South,3,Health,246,2020-05-05
+303,30,3,4,190,46648.08,closed,2021-10-08,10,30,premium,True,4,Northeast West,3,Health,190,2020-02-01
+304,44,1,5,315,30914.97,closed,2022-01-29,13,44,standard,True,5,Appalachian,1,Business,315,2023-10-07
+305,28,2,7,53,198.6,closed,2022-04-28,19,28,basic,False,7,South,2,Long-term-care Title Workers-compensation,53,2021-12-30
+306,186,1,6,276,32015.83,closed,2021-09-29,16,186,standard,False,6,Suburban Urban,1,Business,276,2023-12-12
+307,101,2,4,14,19033.64,open,2023-03-04,16,101,standard,False,4,Northeast West,2,Long-term-care Title Workers-compensation,14,2023-03-17
+308,155,1,8,324,11705.99,closed,2023-04-28,15,155,standard,True,8,East Southeast,1,Business,324,2022-08-20
+309,82,2,3,40,3056.46,open,2020-09-02,15,82,standard,True,3,Atlantic,2,Long-term-care Title Workers-compensation,40,2021-06-16
+310,161,2,4,199,40152.25,closed,2020-10-27,21,161,standard,True,4,Northeast West,2,Long-term-care Title Workers-compensation,199,2020-10-02
+311,163,1,6,319,32885.55,closed,2020-06-29,9,163,premium,False,6,Suburban Urban,1,Business,319,2023-08-29
+312,151,3,10,136,40174.96,pending,2022-01-21,13,151,basic,True,10,Northwest Rural,3,Health,136,2020-12-22
+313,32,3,8,346,7328.37,closed,2023-12-03,10,32,standard,False,8,East Southeast,3,Health,346,2023-05-19
+314,191,3,9,242,15605.63,open,2020-01-26,13,191,basic,False,9,Desert GreatLakes,3,Health,242,2023-11-07
+315,184,1,1,180,40319.03,open,2022-10-11,16,184,standard,True,1,Appalachian,1,Business,180,2022-03-29
+316,181,3,2,6,29116.07,pending,2022-08-11,10,181,standard,False,2,South North,3,Health,6,2022-02-17
+317,75,1,3,324,27750.75,open,2021-04-25,14,75,standard,True,3,Atlantic,1,Business,324,2022-08-20
+318,152,1,2,161,36183.99,pending,2020-06-17,16,152,standard,True,2,South North,1,Business,161,2022-03-14
+319,148,2,10,89,17810.01,closed,2023-04-02,18,148,basic,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,89,2023-01-19
+320,155,3,1,217,42510.95,open,2020-10-25,15,155,standard,True,1,Appalachian,3,Health,217,2021-09-12
+321,80,2,4,108,46588.7,open,2021-06-27,23,80,premium,False,4,Northeast West,2,Long-term-care Title Workers-compensation,108,2020-01-15
+322,126,3,1,90,46759.91,pending,2023-03-04,17,126,premium,True,1,Appalachian,3,Health,90,2021-03-11
+323,133,1,8,297,7886.95,open,2021-01-02,21,133,basic,True,8,East Southeast,1,Business,297,2023-11-29
+324,49,1,9,76,16191.76,open,2021-11-20,14,49,basic,False,9,Desert GreatLakes,1,Business,76,2022-08-16
+325,91,2,8,31,8240.23,closed,2021-06-27,19,91,standard,False,8,East Southeast,2,Long-term-care Title Workers-compensation,31,2023-08-25
+326,133,2,10,241,21650.02,open,2020-07-01,13,133,basic,True,10,Northwest Rural,2,Long-term-care Title Workers-compensation,241,2021-08-30
+327,192,2,8,76,22980.94,pending,2020-12-13,12,192,basic,False,8,East Southeast,2,Long-term-care Title Workers-compensation,76,2022-08-16
+328,122,2,6,159,7200.99,closed,2023-12-04,14,122,basic,True,6,Suburban Urban,2,Long-term-care Title Workers-compensation,159,2022-05-14
+329,193,2,1,267,106.59,open,2020-08-01,10,193,standard,False,1,Appalachian,2,Long-term-care Title Workers-compensation,267,2023-08-06
+330,75,3,9,191,666.5,open,2022-05-04,10,75,standard,True,9,Desert GreatLakes,3,Health,191,2021-10-10
+331,70,3,9,284,21549.5,open,2020-12-17,23,70,standard,True,9,Desert GreatLakes,3,Health,284,2021-10-01
+332,181,1,7,42,468.79,closed,2022-10-18,16,181,standard,False,7,South,1,Business,42,2023-12-25
+333,29,3,2,122,35482.22,open,2021-03-17,21,29,standard,True,2,South North,3,Health,122,2021-01-05
+334,44,1,8,84,14228.85,open,2022-07-27,12,44,standard,True,8,East Southeast,1,Business,84,2021-10-01
+335,32,1,5,318,30840.48,closed,2020-01-31,18,32,standard,False,5,Appalachian,1,Business,318,2022-07-07
+336,111,2,1,43,6664.51,closed,2023-04-13,15,111,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,43,2022-01-07
+337,181,3,1,39,15746.99,open,2021-07-27,11,181,standard,False,1,Appalachian,3,Health,39,2022-06-30
+338,108,3,5,105,8296.25,open,2021-07-21,22,108,basic,False,5,Appalachian,3,Health,105,2023-01-31
+339,9,2,3,163,27369.58,pending,2020-08-10,13,9,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,163,2023-12-03
+340,110,3,3,310,17224.58,pending,2021-04-13,9,110,premium,False,3,Atlantic,3,Health,310,2023-11-07
+341,31,2,1,324,1234.41,pending,2023-09-07,16,31,standard,True,1,Appalachian,2,Long-term-care Title Workers-compensation,324,2022-08-20
+342,90,3,10,306,42231.85,pending,2023-10-24,15,90,premium,True,10,Northwest Rural,3,Health,306,2020-09-12
+343,172,2,3,301,43975.54,closed,2022-06-07,19,172,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,301,2023-08-30
+344,65,3,10,164,26003.45,pending,2022-02-08,13,65,standard,False,10,Northwest Rural,3,Health,164,2022-06-25
+345,161,2,3,71,1606.64,open,2021-02-06,18,161,standard,True,3,Atlantic,2,Long-term-care Title Workers-compensation,71,2023-08-26
+346,4,2,4,282,916.5,open,2020-10-16,14,4,standard,False,4,Northeast West,2,Long-term-care Title Workers-compensation,282,2022-06-08
+347,90,3,3,122,21265.45,pending,2023-09-16,10,90,premium,True,3,Atlantic,3,Health,122,2021-01-05
+348,169,2,4,291,12907.2,closed,2023-02-04,12,169,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,291,2021-01-09
+349,175,1,4,27,9156.4,closed,2021-06-29,21,175,basic,True,4,Northeast West,1,Business,27,2021-04-17
+350,84,1,6,225,19974.7,open,2023-10-31,19,84,standard,False,6,Suburban Urban,1,Business,225,2023-10-13
+351,1,3,10,186,108.49,open,2023-08-13,15,1,standard,False,10,Northwest Rural,3,Health,186,2023-02-08
+352,51,1,9,288,1660.13,open,2021-02-25,13,51,premium,True,9,Desert GreatLakes,1,Business,288,2022-07-21
+353,139,1,5,160,1646.38,closed,2022-08-12,16,139,premium,True,5,Appalachian,1,Business,160,2023-12-01
+354,118,3,5,176,173.18,pending,2020-09-29,13,118,premium,False,5,Appalachian,3,Health,176,2021-12-24
+355,175,1,7,197,16572.44,open,2020-03-21,18,175,basic,True,7,South,1,Business,197,2020-04-12
+356,77,3,5,263,1469.03,open,2020-12-25,17,77,basic,True,5,Appalachian,3,Health,263,2021-01-21
+357,135,1,9,267,29831.36,closed,2022-10-10,15,135,basic,False,9,Desert GreatLakes,1,Business,267,2023-08-06
+358,91,3,4,290,879.59,closed,2023-06-26,18,91,standard,False,4,Northeast West,3,Health,290,2020-11-16
+359,113,1,9,317,7236.47,open,2021-05-30,6,113,standard,False,9,Desert GreatLakes,1,Business,317,2022-12-08
+360,196,3,8,223,14173.02,closed,2020-06-16,11,196,basic,False,8,East Southeast,3,Health,223,2020-11-20
+361,85,1,8,350,14749.56,pending,2021-04-03,23,85,premium,True,8,East Southeast,1,Business,350,2023-02-19
+362,70,3,6,198,14110.78,pending,2022-03-04,13,70,standard,True,6,Suburban Urban,3,Health,198,2022-12-14
+363,11,2,7,122,35743.21,pending,2023-09-10,20,11,basic,False,7,South,2,Long-term-care Title Workers-compensation,122,2021-01-05
+364,97,1,6,216,3558.97,open,2021-05-18,9,97,standard,True,6,Suburban Urban,1,Business,216,2021-10-07
+365,101,2,8,360,11503.68,closed,2022-12-22,12,101,standard,False,8,East Southeast,2,Long-term-care Title Workers-compensation,360,2023-01-28
+366,114,2,10,308,44190.13,closed,2021-06-15,17,114,standard,True,10,Northwest Rural,2,Long-term-care Title Workers-compensation,308,2021-01-28
+367,4,1,4,149,156.11,open,2022-08-09,14,4,standard,False,4,Northeast West,1,Business,149,2021-12-10
+368,149,3,4,121,14878.81,open,2021-04-26,21,149,basic,False,4,Northeast West,3,Health,121,2020-07-12
+369,164,2,1,194,5328.51,closed,2020-02-08,18,164,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,194,2020-06-08
+370,173,1,8,6,44938.3,open,2023-09-14,18,173,standard,False,8,East Southeast,1,Business,6,2022-02-17
+371,194,3,1,341,29467.36,open,2022-01-30,15,194,standard,True,1,Appalachian,3,Health,341,2023-05-21
+372,118,2,4,96,20418.37,closed,2021-08-09,12,118,premium,False,4,Northeast West,2,Long-term-care Title Workers-compensation,96,2022-10-18
+373,43,3,6,336,21363.25,open,2021-11-03,19,43,premium,False,6,Suburban Urban,3,Health,336,2021-08-24
+374,144,2,4,91,11486.5,closed,2023-10-13,16,144,premium,False,4,Northeast West,2,Long-term-care Title Workers-compensation,91,2021-12-19
+375,77,2,4,67,14080.33,pending,2020-06-23,13,77,basic,True,4,Northeast West,2,Long-term-care Title Workers-compensation,67,2022-10-04
+376,147,2,10,336,39984.32,pending,2021-06-23,21,147,basic,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,336,2021-08-24
+377,110,3,3,165,44663.31,closed,2021-03-21,11,110,premium,False,3,Atlantic,3,Health,165,2023-12-26
+378,166,3,10,132,27616.86,closed,2022-09-08,20,166,basic,False,10,Northwest Rural,3,Health,132,2022-05-24
+379,80,3,8,255,28805.22,closed,2023-01-13,16,80,premium,False,8,East Southeast,3,Health,255,2022-11-19
+380,102,3,1,172,877.2,open,2020-03-20,21,102,standard,True,1,Appalachian,3,Health,172,2023-05-31
+381,37,1,5,7,27266.54,closed,2021-09-24,19,37,basic,False,5,Appalachian,1,Business,7,2022-06-22
+382,113,2,2,257,1000.1,closed,2020-12-21,20,113,standard,False,2,South North,2,Long-term-care Title Workers-compensation,257,2022-02-20
+383,72,1,2,45,47967.34,closed,2022-07-02,13,72,standard,False,2,South North,1,Business,45,2022-03-02
+384,118,3,6,134,8893.95,open,2020-02-29,10,118,premium,False,6,Suburban Urban,3,Health,134,2021-10-13
+385,151,2,5,17,3794.72,closed,2021-12-25,9,151,basic,True,5,Appalachian,2,Long-term-care Title Workers-compensation,17,2020-03-04
+386,47,2,2,243,180.96,open,2023-02-10,16,47,basic,False,2,South North,2,Long-term-care Title Workers-compensation,243,2020-07-02
+387,24,3,4,74,5742.01,open,2023-11-06,12,24,premium,True,4,Northeast West,3,Health,74,2021-10-29
+388,160,3,10,253,27798.89,open,2023-03-13,6,160,basic,True,10,Northwest Rural,3,Health,253,2020-01-15
+389,47,3,1,25,24817.03,pending,2023-04-30,14,47,basic,False,1,Appalachian,3,Health,25,2022-12-30
+390,106,2,5,123,12732.94,closed,2023-09-12,6,106,premium,False,5,Appalachian,2,Long-term-care Title Workers-compensation,123,2022-12-20
+391,171,1,6,56,36278.14,open,2021-12-04,16,171,standard,False,6,Suburban Urban,1,Business,56,2021-01-17
+392,125,2,9,194,101.61,open,2021-12-23,21,125,premium,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,194,2020-06-08
+393,148,2,7,255,673.21,pending,2022-02-15,21,148,basic,False,7,South,2,Long-term-care Title Workers-compensation,255,2022-11-19
+394,146,3,3,351,10606.28,open,2023-05-03,14,146,standard,False,3,Atlantic,3,Health,351,2023-12-09
+395,62,3,5,344,10331.75,closed,2023-11-19,12,62,premium,False,5,Appalachian,3,Health,344,2023-07-09
+396,66,3,8,176,18568.91,closed,2020-10-24,10,66,standard,True,8,East Southeast,3,Health,176,2021-12-24
+397,138,2,5,236,5650.02,closed,2023-05-10,24,138,standard,False,5,Appalachian,2,Long-term-care Title Workers-compensation,236,2020-11-13
+398,132,2,3,20,2091.22,open,2022-02-03,17,132,basic,False,3,Atlantic,2,Long-term-care Title Workers-compensation,20,2022-08-05
+399,22,3,9,133,2837.84,open,2020-12-15,17,22,basic,True,9,Desert GreatLakes,3,Health,133,2021-08-28
+400,42,1,1,119,17798.92,open,2023-06-24,11,42,standard,True,1,Appalachian,1,Business,119,2021-12-01
+401,14,2,3,129,1186.7,closed,2021-04-28,11,14,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,129,2022-10-28
+402,85,1,5,304,17416.04,closed,2021-10-15,13,85,premium,True,5,Appalachian,1,Business,304,2021-10-04
+403,39,3,6,232,2690.24,closed,2021-06-24,7,39,premium,False,6,Suburban Urban,3,Health,232,2021-12-25
+404,143,2,2,280,19349.44,closed,2020-03-30,17,143,basic,False,2,South North,2,Long-term-care Title Workers-compensation,280,2022-09-22
+405,73,1,3,205,44562.93,closed,2020-10-19,16,73,standard,True,3,Atlantic,1,Business,205,2020-12-26
+406,17,2,4,353,35704.53,open,2021-03-17,21,17,standard,True,4,Northeast West,2,Long-term-care Title Workers-compensation,353,2023-04-18
+407,122,2,7,335,24873.45,open,2021-11-25,18,122,basic,True,7,South,2,Long-term-care Title Workers-compensation,335,2020-07-02
+408,131,2,5,14,29423.39,open,2023-04-19,10,131,standard,False,5,Appalachian,2,Long-term-care Title Workers-compensation,14,2023-03-17
+409,109,3,9,340,424.96,open,2023-06-08,19,109,basic,False,9,Desert GreatLakes,3,Health,340,2022-01-14
+410,1,2,10,291,8493.07,open,2023-03-18,15,1,standard,False,10,Northwest Rural,2,Long-term-care Title Workers-compensation,291,2021-01-09
+411,67,2,9,324,554.07,closed,2023-03-26,12,67,standard,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,324,2022-08-20
+412,31,1,1,299,292.58,open,2023-03-15,14,31,standard,True,1,Appalachian,1,Business,299,2022-10-18
+413,51,3,8,340,17064.19,closed,2022-10-17,14,51,premium,True,8,East Southeast,3,Health,340,2022-01-14
+414,46,1,2,239,41823.74,open,2022-03-15,23,46,basic,True,2,South North,1,Business,239,2023-12-26
+415,95,3,5,199,11769.75,closed,2021-11-18,11,95,standard,True,5,Appalachian,3,Health,199,2020-10-02
+416,24,3,6,306,26167.01,pending,2020-11-15,12,24,premium,True,6,Suburban Urban,3,Health,306,2020-09-12
+417,34,1,3,280,35828.23,pending,2023-01-18,17,34,standard,False,3,Atlantic,1,Business,280,2022-09-22
+418,34,1,3,200,1716.07,closed,2020-01-14,26,34,standard,False,3,Atlantic,1,Business,200,2021-04-16
+419,70,3,2,309,41065.07,open,2021-04-25,9,70,standard,True,2,South North,3,Health,309,2023-01-13
+420,168,1,5,254,11904.51,closed,2023-10-10,12,168,basic,False,5,Appalachian,1,Business,254,2022-10-20
+421,174,2,2,59,18877.61,open,2023-06-27,18,174,premium,False,2,South North,2,Long-term-care Title Workers-compensation,59,2021-08-27
+422,121,1,9,79,4054.22,closed,2020-07-23,8,121,basic,False,9,Desert GreatLakes,1,Business,79,2021-06-08
+423,35,1,6,226,32110.0,closed,2022-07-11,20,35,standard,False,6,Suburban Urban,1,Business,226,2020-12-15
+424,133,1,8,138,8793.17,open,2022-09-28,21,133,basic,True,8,East Southeast,1,Business,138,2020-03-24
+425,111,2,2,234,24682.23,open,2020-03-31,26,111,premium,False,2,South North,2,Long-term-care Title Workers-compensation,234,2020-08-13
+426,119,2,9,279,951.72,closed,2023-06-08,7,119,premium,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,279,2020-05-25
+427,81,3,9,343,269.2,pending,2023-06-28,17,81,standard,True,9,Desert GreatLakes,3,Health,343,2022-08-25
+428,184,3,8,186,25570.84,open,2022-05-10,15,184,standard,True,8,East Southeast,3,Health,186,2023-02-08
+429,88,1,1,292,214.54,open,2021-05-29,12,88,standard,True,1,Appalachian,1,Business,292,2023-09-19
+430,131,2,3,298,30059.65,closed,2022-01-20,11,131,standard,False,3,Atlantic,2,Long-term-care Title Workers-compensation,298,2020-12-10
+431,184,2,9,145,227.7,open,2020-08-13,19,184,standard,True,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,145,2021-10-28
+432,80,3,2,328,32288.03,closed,2022-11-13,6,80,premium,False,2,South North,3,Health,328,2022-07-08
+433,195,1,6,172,293.74,open,2020-04-29,15,195,standard,False,6,Suburban Urban,1,Business,172,2023-05-31
+434,141,3,10,126,24581.92,closed,2023-02-22,24,141,standard,True,10,Northwest Rural,3,Health,126,2022-06-12
+435,53,2,3,78,40405.26,closed,2023-06-07,23,53,basic,True,3,Atlantic,2,Long-term-care Title Workers-compensation,78,2020-11-12
+436,179,3,5,354,16168.06,closed,2021-08-28,20,179,standard,False,5,Appalachian,3,Health,354,2021-11-10
+437,65,3,9,67,33215.61,open,2022-05-13,23,65,standard,False,9,Desert GreatLakes,3,Health,67,2022-10-04
+438,135,2,7,320,347.5,pending,2022-05-22,13,135,basic,False,7,South,2,Long-term-care Title Workers-compensation,320,2021-11-25
+439,166,2,5,259,14823.35,pending,2022-06-11,13,166,basic,False,5,Appalachian,2,Long-term-care Title Workers-compensation,259,2021-01-12
+440,155,3,5,302,15435.26,open,2023-07-04,15,155,standard,True,5,Appalachian,3,Health,302,2021-10-12
+441,178,1,1,46,108.47,closed,2022-12-14,19,178,basic,False,1,Appalachian,1,Business,46,2021-11-03
+442,156,1,1,325,34275.18,closed,2021-02-22,15,156,basic,False,1,Appalachian,1,Business,325,2020-05-23
+443,175,1,4,16,9601.26,closed,2023-03-22,16,175,basic,True,4,Northeast West,1,Business,16,2023-05-11
+444,183,1,7,13,140.68,closed,2022-01-14,18,183,basic,False,7,South,1,Business,13,2023-08-24
+445,14,3,6,170,24667.36,closed,2023-03-02,8,14,standard,False,6,Suburban Urban,3,Health,170,2022-09-01
+446,165,3,9,107,35838.2,closed,2020-06-13,23,165,standard,False,9,Desert GreatLakes,3,Health,107,2020-11-24
+447,140,1,4,297,6985.62,closed,2023-09-18,15,140,basic,True,4,Northeast West,1,Business,297,2023-11-29
+448,88,2,3,324,5774.59,open,2020-03-20,12,88,standard,True,3,Atlantic,2,Long-term-care Title Workers-compensation,324,2022-08-20
+449,155,3,8,280,29507.25,open,2020-09-17,12,155,standard,True,8,East Southeast,3,Health,280,2022-09-22
+450,77,3,3,264,46733.36,closed,2021-08-29,18,77,basic,True,3,Atlantic,3,Health,264,2022-09-15
+451,17,1,2,96,45774.72,open,2020-03-02,13,17,standard,True,2,South North,1,Business,96,2022-10-18
+452,48,3,2,249,8223.86,open,2023-05-28,22,48,basic,False,2,South North,3,Health,249,2023-11-12
+453,159,2,8,310,29098.69,closed,2022-10-22,14,159,basic,True,8,East Southeast,2,Long-term-care Title Workers-compensation,310,2023-11-07
+454,41,3,7,14,45824.81,closed,2021-11-10,21,41,basic,True,7,South,3,Health,14,2023-03-17
+455,108,2,9,320,15584.18,closed,2023-01-21,18,108,basic,False,9,Desert GreatLakes,2,Long-term-care Title Workers-compensation,320,2021-11-25
+456,50,2,3,333,41651.47,closed,2022-06-04,12,50,basic,True,3,Atlantic,2,Long-term-care Title Workers-compensation,333,2023-11-13
+457,104,1,10,1,24290.99,open,2022-02-06,11,104,standard,True,10,Northwest Rural,1,Business,1,2020-07-22
+458,80,2,1,159,23468.11,open,2020-01-26,15,80,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,159,2022-05-14
+459,39,2,5,53,9168.73,closed,2022-08-22,19,39,premium,False,5,Appalachian,2,Long-term-care Title Workers-compensation,53,2021-12-30
+460,164,2,1,79,5020.58,closed,2023-08-19,13,164,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,79,2021-06-08
+461,187,1,8,144,10453.73,closed,2022-07-30,23,187,basic,False,8,East Southeast,1,Business,144,2023-09-05
+462,44,3,5,273,12662.39,pending,2020-05-13,18,44,standard,True,5,Appalachian,3,Health,273,2020-10-16
+463,30,1,2,157,18015.38,closed,2023-02-14,18,30,premium,True,2,South North,1,Business,157,2021-03-18
+464,44,1,3,7,37481.78,open,2021-04-18,20,44,standard,True,3,Atlantic,1,Business,7,2022-06-22
+465,26,3,6,198,7226.97,pending,2022-03-09,17,26,basic,False,6,Suburban Urban,3,Health,198,2022-12-14
+466,97,1,7,237,10298.73,open,2022-02-19,20,97,standard,True,7,South,1,Business,237,2022-10-12
+467,71,2,3,74,14651.08,closed,2020-04-27,10,71,premium,True,3,Atlantic,2,Long-term-care Title Workers-compensation,74,2021-10-29
+468,102,3,2,157,5769.2,open,2021-08-29,18,102,standard,True,2,South North,3,Health,157,2021-03-18
+469,55,1,8,161,21543.03,closed,2023-04-16,18,55,standard,True,8,East Southeast,1,Business,161,2022-03-14
+470,121,1,6,85,40410.45,closed,2020-06-03,18,121,basic,False,6,Suburban Urban,1,Business,85,2021-11-25
+471,191,1,1,308,17848.65,pending,2020-05-12,27,191,basic,False,1,Appalachian,1,Business,308,2021-01-28
+472,87,2,7,134,48144.26,pending,2020-04-11,14,87,standard,False,7,South,2,Long-term-care Title Workers-compensation,134,2021-10-13
+473,23,3,3,48,30458.96,open,2020-03-24,14,23,standard,False,3,Atlantic,3,Health,48,2023-03-13
+474,103,3,1,25,40867.06,open,2023-08-25,16,103,standard,False,1,Appalachian,3,Health,25,2022-12-30
+475,20,1,7,118,944.15,closed,2023-11-28,26,20,premium,True,7,South,1,Business,118,2020-11-19
+476,126,2,5,199,44950.96,open,2021-06-09,18,126,premium,True,5,Appalachian,2,Long-term-care Title Workers-compensation,199,2020-10-02
+477,46,2,2,288,12787.06,pending,2021-10-30,15,46,basic,True,2,South North,2,Long-term-care Title Workers-compensation,288,2022-07-21
+478,200,2,7,56,16205.0,open,2022-04-21,18,200,basic,False,7,South,2,Long-term-care Title Workers-compensation,56,2021-01-17
+479,134,2,2,344,16750.23,closed,2021-04-03,17,134,standard,True,2,South North,2,Long-term-care Title Workers-compensation,344,2023-07-09
+480,16,3,7,214,166.66,open,2023-05-12,20,16,basic,True,7,South,3,Health,214,2022-10-10
+481,43,2,1,155,3788.13,closed,2021-06-22,12,43,premium,False,1,Appalachian,2,Long-term-care Title Workers-compensation,155,2020-08-22
+482,123,1,9,231,37784.51,closed,2020-04-14,6,123,premium,False,9,Desert GreatLakes,1,Business,231,2020-03-19
+483,54,3,9,173,296.06,closed,2020-05-07,13,54,premium,True,9,Desert GreatLakes,3,Health,173,2022-02-26
+484,125,2,2,101,22728.05,closed,2020-01-15,20,125,premium,False,2,South North,2,Long-term-care Title Workers-compensation,101,2020-10-29
+485,188,3,8,246,7535.81,closed,2020-06-25,21,188,basic,False,8,East Southeast,3,Health,246,2020-05-05
+486,149,1,8,336,6487.66,pending,2020-11-19,10,149,basic,False,8,East Southeast,1,Business,336,2021-08-24
+487,188,1,4,304,20831.76,closed,2023-09-23,24,188,basic,False,4,Northeast West,1,Business,304,2021-10-04
+488,6,3,7,227,16525.86,closed,2023-09-06,22,6,premium,False,7,South,3,Health,227,2022-12-10
+489,8,2,7,301,4224.39,open,2021-07-06,22,8,premium,False,7,South,2,Long-term-care Title Workers-compensation,301,2023-08-30
+490,104,1,9,214,102.51,closed,2023-06-14,15,104,standard,True,9,Desert GreatLakes,1,Business,214,2022-10-10
+491,74,1,7,17,113.83,open,2020-10-19,15,74,standard,True,7,South,1,Business,17,2020-03-04
+492,197,1,10,353,21072.76,pending,2020-02-01,17,197,premium,False,10,Northwest Rural,1,Business,353,2023-04-18
+493,72,2,5,23,46455.04,closed,2022-09-11,13,72,standard,False,5,Appalachian,2,Long-term-care Title Workers-compensation,23,2021-10-16
+494,154,1,10,130,3029.1,open,2021-08-10,16,154,standard,True,10,Northwest Rural,1,Business,130,2022-10-14
+495,38,3,7,262,30146.75,closed,2020-03-11,18,38,standard,False,7,South,3,Health,262,2022-08-28
+496,191,1,1,32,10418.33,pending,2020-05-12,17,191,basic,False,1,Appalachian,1,Business,32,2022-09-17
+497,29,3,6,43,6201.15,open,2022-01-25,17,29,standard,True,6,Suburban Urban,3,Health,43,2022-01-07
+498,148,2,5,109,46882.77,closed,2021-11-15,25,148,basic,False,5,Appalachian,2,Long-term-care Title Workers-compensation,109,2022-07-16
+499,21,2,8,247,5643.08,closed,2021-03-05,13,21,basic,False,8,East Southeast,2,Long-term-care Title Workers-compensation,247,2021-07-06
+500,192,3,4,209,1408.59,closed,2022-06-21,23,192,basic,False,4,Northeast West,3,Health,209,2023-09-16
